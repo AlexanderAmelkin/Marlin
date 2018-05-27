@@ -410,6 +410,8 @@
   #include "pins_STM3R_MINI.h"        // STM32F1                                    env:STM32F1
 #elif MB(MALYAN_M200)
   #include "pins_MALYAN_M200.h"       // STM32F1                                    env:malyanm200
+#elif MB(GTM32PRO)
+  #include "pins_GTM32PRO.h"          // STM32F1                                    env:gtm32pro
 #elif MB(CHITU3D)
   #include "pins_CHITU3D.h"           // STM32F1                                    env:STM32F1
 #elif MB(GTM32_PRO_VB)
