@@ -37,6 +37,7 @@
 
 // Enable EEPROM Emulation for this board as it doesn't have EEPROM
 #define FLASH_EEPROM_EMULATION
+#define E2END 0xFFF // EEPROM end address (4kB), required for persistent_store_flash.cpp
 
 //
 // SD Card
